@@ -33,13 +33,22 @@
       "name": "Lumbar Jack",
       "operatingSystem": "macOS",
       "applicationCategory": "HealthApplication",
+      "description": "Sit, stand, and move reminders with corrective exercises, living in your menubar.",
       "url": "https://apps.apple.com/app/lumbar-jack/id6787187868"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "Kingpost",
+      "applicationCategory": "HealthApplication",
+      "description": "Back, neck and knee pain corrective exercise training program.",
+      "url": "https://kingpost.app"
     },
     {
       "@type": "VideoGame",
       "name": "Chicken Juggle: Tap Arcade",
       "operatingSystem": "iOS",
       "applicationCategory": "GameApplication",
+      "description": "Retro one-tap juggling. Every sound effect is my own voice.",
       "url": "https://apps.apple.com/app/chicken-juggle-tap-arcade/id1436022490"
     },
     {
@@ -47,6 +56,7 @@
       "name": "Panda Munch",
       "operatingSystem": "iOS",
       "applicationCategory": "GameApplication",
+      "description": "Feed the panda. Free with ads, $1 makes them disappear.",
       "offers": {
         "@type": "Offer",
         "price": "0",
@@ -100,6 +110,22 @@
             <span style="font-family: 'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace; font-size: 12px; color: #888888;">[macOS]</span>
           </div>
           <span style="font-size: 15px; line-height: 1.55; color: #888888;">Sit, stand, and move reminders with corrective exercises, living in your menubar.</span>
+        </div>
+        <sc-if value="{{ showArrows }}" hint-placeholder-val="{{ true }}">
+          <span style="align-self: flex-start; font-family: 'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace; font-size: 14px; color: var(--card-accent, #555555); transition: color 0.15s ease;">↗</span>
+        </sc-if>
+      </a>
+
+      <a href="https://kingpost.app" target="_blank" rel="noopener" aria-label="Kingpost on kingpost.app" style="display: flex; align-items: center; gap: 20px; padding: 22px 24px; border: 1px solid #222222; text-decoration: none; color: #EAEAEA; --card-accent: #555555; transition: border-color 0.15s ease;" style-hover="border-color: var(--accent); --card-accent: var(--accent);">
+        <div style="width: 64px; height: 64px; flex-shrink: 0; background: #E8F2EC; border-radius: 15px; display: flex; align-items: center; justify-content: center; overflow: hidden;">
+          <img src="uploads/kingpost-icon.svg" alt="Kingpost – corrective exercise training app icon" style="width: 46px; height: 46px; display: block;">
+        </div>
+        <div style="flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 6px;">
+          <div style="display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap;">
+            <h2 style="margin: 0; font-family: 'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace; font-weight: 500; font-size: 17px; color: #EAEAEA;">Kingpost</h2>
+            <span style="font-family: 'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace; font-size: 12px; color: #888888;">[web]</span>
+          </div>
+          <span style="font-size: 15px; line-height: 1.55; color: #888888;">Back, neck and knee pain corrective exercise training program.</span>
         </div>
         <sc-if value="{{ showArrows }}" hint-placeholder-val="{{ true }}">
           <span style="align-self: flex-start; font-family: 'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace; font-size: 14px; color: var(--card-accent, #555555); transition: color 0.15s ease;">↗</span>
